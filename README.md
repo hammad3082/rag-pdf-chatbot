@@ -1,5 +1,9 @@
 # 📄 RAG PDF Chatbot using WatsonX + HuggingFace + LangChain
 
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Framework](https://img.shields.io/badge/Project-RAG%20Chatbot-green.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 This is an interactive **RAG (Retrieval Augmented Generation)** chatbot that allows users to upload a PDF and ask questions about its content.  
 It uses **WatsonX LLM** for generating responses and **HuggingFace sentence-transformers** for embeddings.  
 A simple **Gradio web UI** is provided for chatting.
@@ -17,7 +21,7 @@ A simple **Gradio web UI** is provided for chatting.
 
 ## 📂 Project Structure
 ```
-ag-pdf-chatbot/
+rag-pdf-chatbot/
 │
 ├─ qabot.py
 ├─ requirements.txt
@@ -112,3 +116,14 @@ Give the repo a **star** and feel free to fork & build on it!
 
 ### 🔹 6. Fourth query and response
 ![Query Response 4](assets/screenshots/06_query_response_04.png)
+
+---
+
+## 🙏 Acknowledgment
+This project was created as part of the **IBM “RAG and Agentic AI” Coursera course**.  
+The initial demo was developed and executed inside the **IBM Skill Network Lab environment**.
+
+I have documented this project on GitHub to:
+- Revisit concepts later
+- Build on top of this baseline version
+- Deploy and extend it independently in future iterations
